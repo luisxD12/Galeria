@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <title>Galeria de Fotos | Diana y Luis</title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+     
+     <link rel="stylesheet" href="./css/estiloreloj.css">
+     <link href= 'https://fonts.googleapis.com/css?family=Oswald:300,400,700' type="text/css">
+</head>
+<body background="1.jpg"> 
+     <audio autoplay >
+          <source src="melodia.mp3"></source>
+      </audio>
+     <div class="navbar-fixed">
+          <nav class="grey">
+              <div class="nav-wrapper">
+                   <a href="#" class="brand-logo right">Galeria de Imagenes</a>
+                   <ul class="left">
+                    <li><a href="Galeria de fotos.html">Principal</a></li>
+                    <li><a href="carrusel.html">Carrusel</a></li>
+                    <li><a href="index.html">Home</a></li>
+                        </li>
+                   </ul>
+              </div>
+         </nav>
+      </div>
+      
+       <center>
+          
+		<div class="widget" >
+               <a href = "Galeria de fotos.html"><h1>FOTOS</h1></a>
+			<div class="fecha">
+				<p id="diaSemana" class="diaSemana"></p>
+				<p id="dia" class="dia"></p>
+				<p>de </p>
+				<p id="mes" class="mes"></p>
+				<p>del </p>
+				<p id="year" class="year"></p>
+			</div>
+	
+			<div class="reloj">
+				<p id="horas" class="horas"></p>
+				<p>:</p>
+				<p id="minutos" class="minutos"></p>
+				<p>:</p>
+				<div class="caja-segundos">
+					<p id="ampm" class="ampm"></p>
+					<p id="segundos" class="segundos"></p>
+				</div>
+			</div>
+          </div>
+       </center>  
+	</div>
+     
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+     <script src="./js/reloj.js"></script>
+     
+</body>
+</html>
